@@ -1,0 +1,87 @@
+{
+  "lang": {
+    "author": "OcelusPRO",
+    "corrector": "N/A"
+  },
+  "help": {
+    "help": {
+      "description":"Help Commands",
+      "perms": "Everybody"
+    },
+    "cat": {
+      "fun": ":ferris_wheel: Fun's Commands:",
+      "utils": ":blue_book: Util's Commands:",
+      "tag": ":label: Tag's:",
+      "other": ":detective: Other Commands:"
+    },
+    "embed": {
+      "cmd": {
+        "desc": "Order informations `{0}`",
+        "cmd_desc": ":newspaper: Description",
+        "cmd_usage": ":gear: Syntax",
+        "cmd_perm": ":scales: Permission :",
+        "cmd_cooldown": ":timer: Cooldown :",
+        "time_unite": "seconds"
+      },
+      "global": {
+        "desc": "The prefix is : `{0}`\nFot more informations, use : `{0}help <command name>`"
+      }
+    }
+  },
+  "tag": {
+    "help":{
+      "description":"Retrieve a user's tag list",
+      "perms": "Everybody"
+    },
+    "no_platforme": "<@{0}> **did not configure any tag's !**",
+    "request_by": "Asked By : {0}",
+    "tag_list": "Tag's list of : {0}"
+  },
+  "set_tag": {
+    "help":{
+      "description":"Add a tag in your profil",
+      "perms": "Everybody"
+    },
+    "error": {
+      "args": ":x: **Please specify your platform and your tag !**",
+      "unknow_platforme": ":x: **This platform was not found !**\n*Use one of this platforms : \n`{0}`*"
+    },
+    "embed": {
+      "title": "Tag is defined :",
+      "desc": "Your tag ({0}) on {1} as been added !"
+    }
+  },
+  "remove_tag": {
+    "help":{
+      "description":"remove a tag from your profile",
+      "perms": "Everybody"
+    },
+    "error": {
+      "args": ":x: **Please specify the platform then the tag to remove !**",
+      "unknow_platforme": ":x: **The platform is not recognized!**\n*Use one of the following platforms : \n`{0}`*"
+    },
+    "embed": {
+      "title": "Tag remove :",
+      "desc": "Your tag ({0}) on {1} have been removed !"
+    }
+  },
+  "set_prefix": {
+    "help":{
+      "description":"\nset the bot prefix on your server",
+      "perms": "Manage the server"
+    },
+    "args": ":warning: **Please enter the prefix!**",
+    "success": ":white_check_mark: **The server prefix is now : `{0}`**"
+  },
+  "set_lang": {
+    "help":{
+      "description":"Set the language on the server",
+      "perms": "Manage Server"
+    },
+    "error": {
+      "args": ":warning: **You must indicate the language !**\n*Languages available : `{0}`*",
+      "unknow_langage": ":warning: **The indicated language is not present on the bot !**\nUse one of the languages below :\n`{0}`"
+    },
+    "success": ":white_check_mark: **The server language has been set to `{0}`**"
+  }
+}

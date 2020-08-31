@@ -1,0 +1,87 @@
+{
+  "lang": {
+    "author": "OcelusPRO",
+    "corrector": "N/A"
+  },
+  "help": {
+    "help": {
+      "description":"Commande d'aide",
+      "perms": "Tout le monde"
+    },
+    "cat": {
+      "fun": ":ferris_wheel: Commandes Fun:",
+      "utils": ":blue_book: Commandes Utiles:",
+      "tag": ":label: Tag's:",
+      "other": ":detective: Autres Commandes:"
+    },
+    "embed": {
+      "cmd": {
+        "desc": "Informations sur la commande `{0}`",
+        "cmd_desc": ":newspaper: Description",
+        "cmd_usage": ":gear: Usage",
+        "cmd_perm": ":scales: Permission :",
+        "cmd_cooldown": ":timer: cooldown :",
+        "time_unite": "secondes"
+      },
+      "global": {
+        "desc": "Le préfix est : `{0}`\nPour plus d'informations, utilisez : `{0}help <nom de la commande>`"
+      }
+    }
+  },
+  "tag": {
+    "help":{
+      "description":"Récupérer la liste des tag d'un utilisateur",
+      "perms": "Tout le monde"
+    },
+    "no_platforme": "<@{0}> **n'a configurer aucun tag !**",
+    "request_by": "Demandé par : {0}",
+    "tag_list": "Liste des tag(s) de {0}"
+  },
+  "set_tag": {
+    "help":{
+      "description":"ajoutez un tag a votre profil",
+      "perms": "Tout le monde"
+    },
+    "error": {
+      "args": ":x: **Veuillez précisez la plateforme puis votre tag !**",
+      "unknow_platforme": ":x: **La plateforme n'est pas reconnu !**\n*Utilisez une des plateformes suivantes : \n`{0}`*"
+    },
+    "embed": {
+      "title": "Tag défini :",
+      "desc": "Votre tag ({0}) sur {1} à bien été ajouté !"
+    }
+  },
+  "remove_tag": {
+    "help":{
+      "description":"retirez un tag de votre profile",
+      "perms": "Tout le monde"
+    },
+    "error": {
+      "args": ":x: **Veuillez précisez la plateforme puis le tag a retirer!**",
+      "unknow_platforme": ":x: **La plateforme n'est pas reconnu !**\n*Utilisez une des plateformes suivantes : \n`{0}`*"
+    },
+    "embed": {
+      "title": "Tag retirer :",
+      "desc": "Votre tag ({0}) sur {1} à bien été retirer !"
+    }
+  },
+  "set_prefix": {
+    "help":{
+      "description":"définir le prefix du bot sur votre serveur",
+      "perms": "Gérer le serveur"
+    },
+    "args": ":warning: **Veuillez indiqué le prefix !**",
+    "success": ":white_check_mark: **Le prefix du serveur est maintenant : `{0}`**"
+  },
+  "set_lang": {
+    "help":{
+      "description":"Définir la langue sur le serveur",
+      "perms": "Gérer le serveur"
+    },
+    "error": {
+      "args": ":warning: **Vous devez indiqué la langue !**\n*Langues disponibles : `{0}`*",
+      "unknow_langage": ":warning: **La langue indiqué n'est pas présente sur le bot !**\nUtilisez une des langues ci-dessous :\n`{0}`"
+    },
+    "success": ":white_check_mark: **La langue du serveur a bien été défini sur `{0}`**"
+  }
+}
