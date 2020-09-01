@@ -35,7 +35,11 @@
     },
     "no_platforme": "<@{0}> **did not configure any tag's !**",
     "request_by": "Asked By : {0}",
-    "tag_list": "Tag's list of : {0}"
+    "tag_list": "Tag's list of : {0}",
+    "no_member": {
+      "title": "Want more tags?",
+      "desc": "To see more tags on your profile, it's easy, just join our [support server]({0})"
+    }
   },
   "set_tag": {
     "help":{
@@ -49,6 +53,10 @@
     "embed": {
       "title": "Tag is defined :",
       "desc": "Your tag ({0}) on {1} as been added !"
+    },
+    "no_member": {
+      "title": "Want more tags?",
+      "desc": "To see more tags on your profile, it's easy, just join our [support server]({0})"
     }
   },
   "remove_tag": {
