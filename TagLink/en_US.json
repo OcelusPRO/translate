@@ -24,7 +24,7 @@
         "time_unite": "seconds"
       },
       "global": {
-        "desc": "The prefix is : `{0}`\nFot more informations, use : `{0}help <command name>`"
+        "desc": "The prefix is : `{0}`\nFor more informations, use : `{0}help <command name>`"
       }
     }
   },
