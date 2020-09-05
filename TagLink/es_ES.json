@@ -1,0 +1,95 @@
+{
+  "lang": {
+    "author": "AbcTrack-Dark",
+    "corrector": "OcelusPRO"
+  },
+  "help": {
+    "help": {
+      "description":"Orden de ayuda",
+      "perms": "Todos"
+    },
+    "cat": {
+      "fun": ":ferris_wheel: Controles Fun:",
+      "utils": ":blue_book: Pedidos Útiles:",
+      "tag": ":label: Tag's:",
+      "other": ":detective: otros comandos:"
+    },
+    "embed": {
+      "cmd": {
+        "desc": "Información sobre el pedido `{0}`",
+        "cmd_desc": ":newspaper: descripción",
+        "cmd_usage": ":gear: Uso",
+        "cmd_perm": ":scales: Permiso :",
+        "cmd_cooldown": ":timer: enfriarse :",
+        "time_unite": "segundos"
+      },
+      "global": {
+        "desc": "El prólogo es el siguiente: `{0}`\nPara más información, utilice : `{0}help <om del comando>`"
+      }
+    }
+  },
+  "tag": {
+    "help":{
+      "description":"Recuperar la lista de etiquetas de un usuario",
+      "perms": "Todos"
+    },
+    "no_platforme": "<@{0}> **no tiene que configurar ninguna etiqueta !**",
+    "request_by": "Solicitado por : {0}",
+    "tag_list": "Lista de etiquetas(s) de {0}",
+    "no_member": {
+      "title": "¿Te apetece más etiquetas?",
+      "desc": "Para ver más etiquetas en su perfil es simple, sólo tiene que unirse a nuestro [servidor de soporte]({0})"
+    }
+  },
+  "set_tag": {
+    "help":{
+      "description":"añada una etiqueta a su perfil",
+      "perms": "Todos"
+    },
+    "error": {
+      "args": ":x: **Por favor, especifique la plataforma y luego su etiqueta !**",
+      "unknow_platforme": ":x: **No se reconoce la plataforma !**\n*Utilice una de las siguientes plataformas : \n`{0}`*"
+    },
+    "embed": {
+      "title": "Etiqueta definida :",
+      "desc": "su etiqueta ({0}) en {1} bien añadido !"
+    },
+    "no_member": {
+      "title": "Envi de más etiquetas ?",
+      "desc": "Los usuarios no presentes en nuestro soporte sólo tienen acceso a una etiqueta por plataforma !\nPara ver más etiquetas en su perfil es simple, sólo tiene que unirse a nuestro [servidor de soporte]({0})"
+    }
+  },
+  "remove_tag": {
+    "help":{
+      "description":"retire una etiqueta de su perfil",
+      "perms": "Todos"
+    },
+    "error": {
+      "args": ":x: **Por favor especifique la plataforma y la etiqueta a quitar!**",
+      "unknow_platforme": ":x: **No se reconoce la plataforma !**\n*Utilice una de las siguientes plataformas : \n`{0}`*"
+    },
+    "embed": {
+      "title": "Etiqueta quitar :",
+      "desc": "su etiqueta ({0}) en {1} finalmente se retiró !"
+    }
+  },
+  "set_prefix": {
+    "help":{
+      "description":"definir el prefix del bot en su servidor",
+      "perms": "Administrar el servidor"
+    },
+    "args": ":warning: **Por favor, indique el prefix !**",
+    "success": ":white_check_mark: **El prefix del servidor es ahora : `{0}`**"
+  },
+  "set_lang": {
+    "help":{
+      "description":"Establecer el idioma en el servidor",
+      "perms": "Administrar el servidor"
+    },
+    "error": {
+      "args": ":warning: **Debe indicar el idioma !**\n*idiomas disponibles : `{0}`*",
+      "unknow_langage": ":warning: **El idioma indicado no está presente en el bot !**\nUtilice uno de los siguientes idiomas :\n`{0}`"
+    },
+    "success": ":white_check_mark: **El idioma del servidor está bien definido en `{0}`**"
+  }
+}
